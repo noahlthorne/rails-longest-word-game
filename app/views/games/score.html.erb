@@ -1,0 +1,8 @@
+<h1>Score</h1>
+<% if @result == "That is invalid" %>
+  <p>I am sorry</p>
+  <p><%= @result %></p>
+  <% else %>
+  <p>Congratulations! Your score is:</p>
+  <p><%= @result %></p>
+<% end %>
